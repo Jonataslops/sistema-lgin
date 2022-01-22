@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("imagens/fundo.jpg");
+    background-position: 50% 25%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    display: block;
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 12pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    
+}
+.btn-login{
+    display: block;
+    width: 80%;
+    height: 50px;
+    padding: 15px 20px;
+    justify-content: center;
+    margin: 20px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    color:rgb(14, 15, 15);
+    background: #d1cbcb;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px  #616661f3;
+}
+div#corpo-form{
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpo-form-cad{
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+div#corpo-form h1, div#corpo-form-cad{
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color:rgb(30, 2, 56);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 12pt;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: #853f5e;
+    border-radius: none;
+   
+}
+
+::-webkit-input-placeholder{
+    color: #0e0d0d;
+}
+:-moz-placeholder{
+    color: #0e0d0d;
+}
+::-moz-placeholder{
+    color: #0e0d0d;
+}
+:-ms-input-placeholder{
+    color: #0e0d0d;
+}
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #043519;
+    border: 1px solid rosybrown;
+}
+div.msgm-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #0e0d0d;
+    border: 1px solid rosybrown;
+}
